@@ -6,10 +6,11 @@
     android:layout_height="110dp">
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/itemCardCat"
+        android:id="@+id/itemCardDog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="#B59B9B"
         android:layout_margin="10dp"
         android:orientation="vertical">
         <ImageView

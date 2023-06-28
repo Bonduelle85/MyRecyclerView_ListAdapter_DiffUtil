@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         val catsData = CatsData()
         val adapter = CatAdapter()
-        adapter.catList = catsData.catList
+        adapter.petList = catsData.catList
 //        val layout = LinearLayoutManager(this)
 //        val layout = StaggeredGridLayoutManager(4, LinearLayoutManager.VERTICAL)
         val layout = GridLayoutManager(this, 4)
