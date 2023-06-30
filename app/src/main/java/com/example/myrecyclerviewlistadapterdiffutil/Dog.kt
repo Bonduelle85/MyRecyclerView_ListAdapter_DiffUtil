@@ -1,6 +1,6 @@
 package com.example.myrecyclerviewlistadapterdiffutil
 
 data class Dog(
-    val nickName: String,
-    val photo: Int,
-    val age: Int)
+    val dogName: String,
+    val dogPhoto: Int,
+    val dogAge: Int)

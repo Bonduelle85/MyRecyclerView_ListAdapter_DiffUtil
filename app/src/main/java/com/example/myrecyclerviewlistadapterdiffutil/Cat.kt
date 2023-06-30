@@ -2,7 +2,7 @@ package com.example.myrecyclerviewlistadapterdiffutil
 
 
 data class Cat(
- val name: String,
- val photo: Int,
- val age: Int
+ val catName: String,
+ val catPhoto: Int,
+ val catAge: Int
 )
